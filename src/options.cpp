@@ -33,7 +33,7 @@ using namespace std;
 #define CLCC_OPENCL_DYNLIB_NAME "/Library/Frameworks/OpenCL.framework/OpenCL"
 #endif
 
-#ifdef __LINUX__
+#ifdef __linux__
 #define CLCC_OPENCL_DYNLIB_NAME "libOpenCL.so";
 #endif
 

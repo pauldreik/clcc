@@ -21,10 +21,10 @@ set(CLCC_VERSION_BUILD	0)	#	Undetermined, set by subversion (if present)
 
 find_package(Subversion)
 
-if (Subversion_FOUND)
-	Subversion_WC_INFO(${PROJECT_SOURCE_DIR} clcc)
-	set(CLCC_VERSION_BUILD	${clcc_WC_REVISION})
-endif()
+#if (Subversion_FOUND)
+#	Subversion_WC_INFO(${PROJECT_SOURCE_DIR} clcc)
+#	set(CLCC_VERSION_BUILD	${clcc_WC_REVISION})
+#endif()
 
 if (WIN32)
 	set(CLCC_PLATFORM	win32)    
